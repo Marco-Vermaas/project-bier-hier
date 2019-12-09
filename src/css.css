@@ -1,0 +1,48 @@
+/*----------------------- Main Style --------------------------*/
+nav#head{
+    width: 102%;
+    margin-top: -8px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-left: -8px;
+    margin-bottom: 20px;
+    background-color: #6fa8dc;
+}
+nav a{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    width: 102%;
+    margin-left: -8px;
+    background-color: #7e7c7f;
+    color: white;
+    clear: both;
+    text-decoration: none;
+    position: fixed;
+}
+
+footer a{
+
+    background-color: #7e7c7f;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+
+h3{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#wrapper{
+}
