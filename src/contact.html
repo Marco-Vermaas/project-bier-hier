@@ -17,36 +17,37 @@
 <h1 id="contactHeader">Contact</h1>
 <section id="adres">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1217.8424971964557!2d5.218617658138347!3d52.376131632369685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDIyJzM0LjEiTiA1wrAxMycxMS4wIkU!5e0!3m2!1snl!2snl!4v1575884352891!5m2!1snl!2snl" width="50%" height="300" frameborder="0" style="border:0; float: left" allowfullscreen=""></iframe>
-    <header>
+    <header id="contact">
         Adresgegevens
     </header>
     <article id="article 1">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet enim ac augue auctor viverra.<br>
-
-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Cras imperdiet enim ac augue auctor viverra.<br>
+        <br>
+        <br>
         Phasellus congue tempor justo sed cursus.<br>
-
-        Praesent pretium libero nec lectus elementum interdum. Ut at odio lorem. Sed posuere tempus<br>
-
+        <br>
+        Praesent pretium libero nec lectus elementum<br> interdum. Ut at odio lorem. Sed posuere tempus<br>
+        <br>
     </article>
 </section>
 <section id="Formulier">
     <form role="form" method="post"  enctype="multipart/form-data">
         <div class="form">
             <label>Naam</label>
-            <input  type="text" class="Form kiezen" name="bestand">
+            <input  type="text" class="Form kiezen naam" name="naam">
         </div>
         <div class="form">
             <label>E-mailadres</label>
-            <input type="text" class="Form kiezen" name="naam" value="">
+            <input type="text" class="Form kiezen email" name="email" value="">
         </div>
         <div class="form">
             <label>Telefoon</label>
-            <input type="text" class="Form kiezen" name="soort" value="">
+            <input type="text" class="Form kiezen telefoon" name="telefoon" value="">
         </div>
-        <div>
-            <label>Bericht:</label>
-            <input type="text" class="Form kiezen" name="gewicht">
+        <label id="bericht">Bericht:</label>
+        <div class="form1">
+            <textarea rows="4" cols="50" class="Form kiezen bericht" name="bericht"></textarea>
         </div>
         <button type="submit" name="knop" class="btn btn-default">Verzenden</button>
     </form>
@@ -61,7 +62,7 @@
         <a href="">Recepten</a><br>
         <a href="contact.html">Contact</a>
     </nav>
-    Copyright © ROC Flevoland 2105
+    <h4>Copyright © ROC Flevoland 2105</h4>
 </footer>
 </section>
 </body>

@@ -1,6 +1,6 @@
 /*----------------------- Main Style --------------------------*/
 nav#head{
-    width: 100%;
+    width: 99%;
     margin-top: -8px;
     padding: 10px 10px 10px 20px;
     margin-left: -8px;
@@ -16,13 +16,13 @@ nav a{
     font-size: 20px;
 }
 footer{
-    width: 102%;
+    width: 100%;
     margin-left: -8px;
     background-color: #7e7c7f;
     color: white;
     clear: both;
     text-decoration: none;
-    position: fixed;
+    position: absolute;
 }
 footer a{
     background-color: #7e7c7f;
@@ -38,10 +38,15 @@ h3{
     margin-left: 20px;
     font-size: 18px;
 }
+h4{
+    margin-left: 20px;
+}
 /*----------------------- contact Style --------------------------*/
 #wrapper{
     box-sizing: border-box;
     display: grid;
+    padding: 15px;
+    margin-left: 3%;
 }
 
 #adres{
@@ -49,5 +54,40 @@ h3{
 }
 #article\ 1{
     float: right;
-    width: 50%;
+    width: 45%;
+    margin-left: 5%;
+}
+header{
+    float: right;
+    width: 45%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+form{
+    margin-top: 20px;
+}
+input.Form.kiezen {
+    margin-top: 5px;
+}
+input.Form.kiezen.email {
+    margin-left: 10px;
+}
+input.Form.kiezen.naam {
+    margin-left: 49px;
+}
+input.Form.kiezen.telefoon {
+    margin-left: 31px;
+    margin-bottom: 5px;
+}
+textarea.Form.kiezen.bericht {
+    margin-top: -19px;
+    margin-left: 92px
+}
+button.btn.btn-default {
+    margin-left: 421px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+nav#footer {
+    margin-top: 15px;
 }
