@@ -41,35 +41,11 @@ footer a{
 }
 
 div#Section1 {
-    float: left;
-    width: 45%;
-    height: 30%;
+    height: 40%;
+    width: 40%;
 }
 
 div#Section2 {
-    float: left;
-    width: 45%;
-    height: 70%;
+    height: 50%;
+    width: 100%;
 }
-
-div#Section3 {
-    float: right;
-    width: 55%;
-    height: 750px;
-}
-
-img.foto {
-    width: 400px;
-    height: 300px;
-}
-
-/*
-.wrapper {
-    display: grid;
-    grid-template-columns: 45% 55%;
-    grid-template-rows: 1fr 2fr;
-    grid-template-areas:
-            "Section1" "Section3"
-            "Section2" "Section3";
-}*/
-
