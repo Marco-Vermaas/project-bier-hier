@@ -1,9 +1,8 @@
 /*----------------------- Main Style --------------------------*/
 nav#head{
-    width: 102%;
+    width: 99%;
     margin-top: -8px;
-    padding: 10px;
-    padding-left: 20px;
+    padding: 10px 10px 10px 20px;
     margin-left: -8px;
     margin-bottom: 20px;
     background-color: #6fa8dc;
@@ -16,19 +15,16 @@ nav a{
     font-family: Arial, sans-serif;
     font-size: 20px;
 }
-
 footer{
-    width: 102%;
+    width: 100%;
     margin-left: -8px;
     background-color: #7e7c7f;
     color: white;
     clear: both;
     text-decoration: none;
-    position: fixed;
+    position: absolute;
 }
-
 footer a{
-
     background-color: #7e7c7f;
     padding: 0;
     margin-left: 20px;
@@ -38,11 +34,77 @@ footer a{
     clear: both;
     text-decoration: none;
 }
-
 h3{
     margin-left: 20px;
     font-size: 18px;
 }
-
+h4{
+    margin-left: 20px;
+}
+/*----------------------- contact Style --------------------------*/
 #wrapper{
+    box-sizing: border-box;
+    display: grid;
+    padding: 15px;
+    margin-left: 3%;
+}
+
+#adres{
+    box-sizing: border-box;
+}
+#article\ 1{
+    float: right;
+    width: 45%;
+    margin-left: 5%;
+}
+header{
+    float: right;
+    width: 45%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+form{
+    margin-top: 20px;
+}
+input.Form.kiezen {
+    margin-top: 5px;
+}
+input.Form.kiezen.email {
+    margin-left: 10px;
+}
+input.Form.kiezen.naam {
+    margin-left: 49px;
+}
+input.Form.kiezen.telefoon {
+    margin-left: 31px;
+    margin-bottom: 5px;
+}
+textarea.Form.kiezen.bericht {
+    margin-top: -19px;
+    margin-left: 92px
+}
+button.btn.btn-default {
+    margin-left: 421px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+nav#footer {
+    margin-top: 15px;
+}
+/*----------------------- over ons Style --------------------------*/
+img{
+    margin-top: 2.6%;
+    margin-right: 20px;
+    align-self: center;
+}
+#wrapper2{
+    text-align: center;
+}
+div#afbeeldingen, div#afbeeldingen\.2{
+    display: flex;
+    justify-content: space-evenly;
+    /*justify-content: flex-start;*/
+}
+h5{
+    font-size: 15px;
 }
