@@ -91,3 +91,20 @@ button.btn.btn-default {
 nav#footer {
     margin-top: 15px;
 }
+/*----------------------- over ons Style --------------------------*/
+img{
+    margin-top: 2.6%;
+    margin-right: 20px;
+    align-self: center;
+}
+#wrapper2{
+    text-align: center;
+}
+div#afbeeldingen, div#afbeeldingen\.2{
+    display: flex;
+    justify-content: space-evenly;
+    /*justify-content: flex-start;*/
+}
+h5{
+    font-size: 15px;
+}
