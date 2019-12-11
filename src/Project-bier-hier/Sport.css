@@ -1,0 +1,94 @@
+body{
+    font-family:"Arial";
+}
+
+nav#head{
+    width: 100%;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-bottom: 20px;
+    background-color: #6fa8dc;
+}
+
+nav a{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    margin-left: -8px;
+    background-color: #7e7c7f;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+
+footer a{
+    background-color: #7e7c7f;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+
+img.huts{
+    width: 260px;
+    height: 130px;
+    padding: 8px;
+}
+
+img#huts {
+    margin-left: 30px;
+}
+
+img#evenement {
+    margin-left: 30px;
+}
+
+img#naam {
+    margin-left: 30px;
+}
+
+div#Foto{
+    width: 60%;
+    float: left;
+}
+
+div#artikelen {
+    width: 40%;
+    float: right;
+}
+
+h2#titel {
+    margin-left: 30px;
+}
+
+article#artikel {
+    float: right;
+}
+
+article#artikel2{
+    float: right;
+}
+
+div#tekst {
+    margin-left: 50px;
+    width: 20%;
+}
+
+div#tekst2 {
+    width: 20%;
+    margin-left: 50px;
+}
+
