@@ -46,6 +46,23 @@ div#Section1 {
 }
 
 div#Section2 {
+    float: bottom;
     height: 50%;
-    width: 100%;
+    width: 1350px;
+}
+
+div#Section3 {
+    float: right;
+    height: 40%;
+    width: 50%;
+}
+
+div#images {
+    width: 300px;
+    height: 300px;
+}
+
+div#grootimage {
+    width: 650px;
+    height: 400px;
 }
