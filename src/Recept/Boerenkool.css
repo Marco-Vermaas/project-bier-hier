@@ -42,27 +42,43 @@ footer a{
 
 div#Section1 {
     height: 40%;
-    width: 40%;
+    width: 100%;
 }
 
-div#Section2 {
-    float: bottom;
-    height: 50%;
-    width: 1350px;
-}
-
-div#Section3 {
-    float: right;
-    height: 40%;
-    width: 50%;
-}
-
-div#images {
+img.images {
+    margin-left: 30px;
     width: 300px;
     height: 300px;
 }
 
-div#grootimage {
-    width: 650px;
-    height: 400px;
+div#koek{
+    width: 10%;
 }
+
+img.grootimage {
+    width: 750px;
+    height: 487px;
+    float: right;
+}
+
+div#tekst {
+    width: 40%;
+    float: left;
+}
+
+
+
+
+
+/*.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 24%;
+    padding: 5px;
+}
+*/
