@@ -1,0 +1,108 @@
+body{
+    font-family:"Arial";
+}
+
+nav#head{
+    width: 100%;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-bottom: 20px;
+    background-color: #6fa8dc;
+}
+
+nav a{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    margin-left: -8px;
+    background-color: #7e7c7f;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+
+footer a{
+    background-color: #7e7c7f;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+
+
+header#titels {
+width: 100%;
+}
+
+h2#titel {
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+}
+
+h2#huts {
+    float: right;
+    width: 40%;
+    margin-right: 120px;
+}
+
+div#plek {
+    width: 50%;
+    float: left;
+}
+
+div#naastplek {
+    width: 50%;
+    float: right;
+}
+
+img#Uitslagen {
+    padding: 8px;
+    height: 300px;
+    width: 700px;
+}
+
+img#Voetbal {
+    padding: 8px;
+    height: 300px;
+    width: 700px;
+}
+
+article#hond,
+article#koe,
+article#schaap{
+    font-size: 18px;
+    padding: 8px;
+    width: 15%;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+article#hond {
+    margin-right: 75px;
+}
+
+article#schaap {
+    margin-left: 200px;
+}
+
+img#pop {
+    width: 300px;
+    height: 250px;
+    float: right;
+    margin-right: 80px;
+}
