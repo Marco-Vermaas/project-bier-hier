@@ -1,0 +1,100 @@
+footer{
+    width: 101%;
+    margin-left: -8px;
+    background-color: #7e7c7f;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+
+footer a{
+    background-color: #7e7c7f;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+
+nav#head{
+    width: 100%;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-bottom: 20px;
+    background-color: #6fa8dc;
+}
+
+nav a{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+section#section1{
+    padding: 8px;
+    width: 30%;
+    float: left;
+}
+
+section#section2{
+    width: 30%;
+    float: left;
+    padding-left: 30px;
+}
+
+section#section3{
+    width: 30%;
+    float: right;
+    padding-right: 40px;
+}
+
+img#fifa{
+    width: 450px;
+    height: 250px;
+}
+
+img#fifawiki{
+    width: 450px;
+    height: 250px;
+}
+
+img#bank{
+    width: 450px;
+    height: 250px;
+}
+
+article#artikelfifa{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+article#artikelwiki{
+    font-size: 25px;
+}
+
+article#artikelyt{
+    font-size: 25px;
+}
+
+h1#titel{
+    font-size: 40px;
+}
+
+h1#titel2{
+     font-size: 40px;
+ }
+
+h1#titel3{
+    font-size: 40px;
+}
+
+div#ul{
+    float: top;
+}
