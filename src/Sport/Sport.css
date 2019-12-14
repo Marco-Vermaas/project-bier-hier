@@ -1,13 +1,18 @@
-nav#Balk{
+body{
+    font-family:"Arial";
+}
+
+nav#head{
     width: 100%;
-    margin-top: -8px;
+    padding-right: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 16px;
+    margin-top: -8px;
     margin-left: -8px;
     margin-bottom: 20px;
     background-color: #6fa8dc;
 }
+
 nav a{
     margin: auto;
     color: black;
@@ -24,9 +29,6 @@ footer{
     color: white;
     clear: both;
     text-decoration: none;
-    position: fixed;
-    margin-top: 547px;
-    float: bottom;
 }
 
 footer a{
@@ -40,45 +42,53 @@ footer a{
     text-decoration: none;
 }
 
-div#Section1 {
-    height: 40%;
-    width: 100%;
+img.huts{
+    width: 260px;
+    height: 130px;
+    padding: 8px;
 }
 
-img.images {
+img#huts {
     margin-left: 30px;
-    width: 300px;
-    height: 300px;
 }
 
-div#koek{
-    width: 10%;
+img#evenement {
+    margin-left: 30px;
 }
 
-img.grootimage {
-    width: 750px;
-    height: 487px;
+img#naam {
+    margin-left: 30px;
+}
+
+div#Foto{
+    width: 60%;
+    float: left;
+}
+
+div#artikelen {
+    width: 40%;
+    float: right;
+}
+
+h2#titel {
+    margin-left: 30px;
+}
+
+article#artikel {
+    float: right;
+}
+
+article#artikel2{
     float: right;
 }
 
 div#tekst {
-    width: 40%;
-    float: left;
+    margin-left: 50px;
+    width: 20%;
 }
 
-
-
-
-
-/*.row::after {
-    content: "";
-    clear: both;
-    display: table;
+div#tekst2 {
+    width: 20%;
+    margin-left: 50px;
 }
 
-.column {
-    float: left;
-    width: 24%;
-    padding: 5px;
-}
-*/
