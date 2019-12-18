@@ -1,0 +1,126 @@
+/*----------------------- Main Style --------------------------*/
+nav#head{
+    width: 100%;
+    margin-top: -8px;
+    padding: 10px 10px 10px 20px;
+    margin-left: -8px;
+    background-color: #6fa8dc;
+}
+nav a{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+footer{
+    width: 102%;
+    margin-left: -8px;
+    background-color: #7e7c7f;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+footer a{
+    background-color: #7e7c7f;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    clear: both;
+    text-decoration: none;
+}
+h3{
+    font-size: 25px;
+    margin-right: 1148px;
+}
+/*----------------------- Contact Style --------------------------*/
+#wrapper{
+    box-sizing: border-box;
+    display: grid;
+}
+
+#adres{
+    box-sizing: border-box;
+}
+#article\ 1{
+    float: right;
+    width: 50%;
+}
+/*----------------------- Concert Style --------------------------*/
+div#wrapperconcert {
+    margin-left: 45px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: flex-start;
+}
+header#concertheader {
+    float: right;
+    padding-right: 110px;
+}
+img#concertimg {
+    width: 47%;
+    height: 425px;
+    padding-right: 45px;
+}
+p.concertlijst {
+    font-size: 14px;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    border-bottom: solid black 1px;
+}
+ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+li {
+    list-style-type: none;
+}
+p#overzicht {
+    font-size: 20px;
+    margin-top: 0px;
+}
+img.concertenfotos {
+    margin-left: 45px;
+    width: 200px;
+    height: 125px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    float: right;
+}
+img#concertfoto4 {
+    margin-right: 45px;
+}
+h3#EnmeerConcert {
+    float: left;
+    margin-right: 0;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+div#wrapperconcert {
+    margin-left: 45px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: flex-start;
+}
+header#valhallaheader {
+    float: left;
+    padding-left: 45px;
+}
+img.valhalla1 {
+    width: 24%;
+    height: 200px;
+    margin-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+}
+div.concertsections {
+    width: 20%;
+    margin-right: 50px;
+    float: right;
+}
+
