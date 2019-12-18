@@ -67,15 +67,3 @@ img.foto {
     height: 300px;
 }
 
-
-
-/*
-.wrapper {
-    display: grid;
-    grid-template-columns: 45% 55%;
-    grid-template-rows: 1fr 2fr;
-    grid-template-areas:
-            "Section1" "Section3"
-            "Section2" "Section3";
-}*/
-
