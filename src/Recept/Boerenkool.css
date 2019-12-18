@@ -40,19 +40,16 @@ footer a{
     text-decoration: none;
 }
 
-div#Section1 {
-    height: 40%;
-    width: 100%;
-}
-
 img.images {
-    margin-left: 30px;
+    margin-right: 30px;
     width: 300px;
     height: 300px;
 }
 
 div#koek{
-    width: 10%;
+    clear: both;
+    padding-top: 20px;
+
 }
 
 img.grootimage {

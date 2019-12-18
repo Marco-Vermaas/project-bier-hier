@@ -40,9 +40,13 @@ footer a{
     text-decoration: none;
 }
 
-div#Section1 {
+div#wrapper {
     float: left;
     width: 45%;
+}
+
+div#Section1 {
+
     height: 30%;
 }
 
@@ -62,6 +66,8 @@ img.foto {
     width: 400px;
     height: 300px;
 }
+
+
 
 /*
 .wrapper {
